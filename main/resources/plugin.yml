@@ -1,0 +1,39 @@
+name: EmeraldCore
+version: '${project.version}'
+main: me.emeraldcss.emeraldcore.EmeraldCore
+api-version: 1.16
+authors: [ Emerald ]
+description: Emerald-Core
+website: https://github.com/Emerald-cmd
+commands:
+  die:
+    description: The easy way to go out
+    usage: /<command>
+  god:
+    description: Become invincible
+    usage: /<command>
+    aliases:
+      - pro
+  feed:
+    description: Feed yourself
+    usage: /<command>
+  gmc:
+    description: Change gamemode to Creative
+    usage: /<command>
+  gms:
+    description: Change gamemode to Survival
+    usage: /<command>
+  gmsp:
+    description: Change gamemode to Spectator
+    usage: /<command>
+  gma:
+    description: Change gamemode to Adventure
+    usage: /<command>
+  fly:
+    description: Fly like your in creative
+    usage: /<command>
+  vanish:
+    description: Become invisible
+    usage: /<command>
+    aliases:
+      - v
